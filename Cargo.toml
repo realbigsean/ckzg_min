@@ -1,5 +1,5 @@
 [package]
-name = "kzg_min"
+name = "ckzg_min"
 version = "0.1.0"
 authors = ["Sean Anderson <sean@sigmaprime.io>"]
 edition = "2021"
