@@ -5,5 +5,5 @@ authors = ["Sean Anderson <sean@sigmaprime.io>"]
 edition = "2021"
 
 [dependencies]
-c_kzg_min = {package = "c-kzg",  git = "https://github.com/ethereum/c-kzg-4844", rev = "13cec820c08f45318f82ed4e0da0300042758b92" , features = ["minimal-spec"]}
+c_kzg_min = { package = "c-kzg", git = "https://github.com/ethereum//c-kzg-4844", rev = "13cec820c08f45318f82ed4e0da0300042758b92", features = ["minimal-spec"]}
 

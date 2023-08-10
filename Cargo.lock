@@ -41,7 +41,7 @@ checksum = "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a"
 [[package]]
 name = "c-kzg"
 version = "0.1.0"
-source = "git+https://github.com/ethereum/c-kzg-4844?rev=13cec820c08f45318f82ed4e0da0300042758b92#13cec820c08f45318f82ed4e0da0300042758b92"
+source = "git+https://github.com/ethereum//c-kzg-4844?rev=13cec820c08f45318f82ed4e0da0300042758b92#13cec820c08f45318f82ed4e0da0300042758b92"
 dependencies = [
  "bindgen",
  "cc",
@@ -76,6 +76,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
+name = "ckzg_min"
+version = "0.1.0"
+dependencies = [
+ "c-kzg",
+]
+
+[[package]]
 name = "clang-sys"
 version = "1.6.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -103,13 +110,6 @@ name = "hex"
 version = "0.4.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70"
-
-[[package]]
-name = "kzg_min"
-version = "0.1.0"
-dependencies = [
- "c-kzg",
-]
 
 [[package]]
 name = "lazy_static"
